@@ -1,0 +1,5 @@
+/Users/aldrind1/Documents/GitHub/AldrinD1/AldrinD1/bin/Debug/AldrinD1.exe
+/Users/aldrind1/Documents/GitHub/AldrinD1/AldrinD1/bin/Debug/AldrinD1.pdb
+/Users/aldrind1/Documents/GitHub/AldrinD1/AldrinD1/obj/x86/Debug/AldrinD1.csproj.CoreCompileInputs.cache
+/Users/aldrind1/Documents/GitHub/AldrinD1/AldrinD1/obj/x86/Debug/AldrinD1.exe
+/Users/aldrind1/Documents/GitHub/AldrinD1/AldrinD1/obj/x86/Debug/AldrinD1.pdb
