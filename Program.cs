@@ -6,18 +6,23 @@ namespace AldrinD1
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Write 2 numbers");
-            float number1 = float.Parse(Console.ReadLine());
-            float number2 = float.Parse(Console.ReadLine());
-
-
-            Console.WriteLine("Select an option:\n1.-Add\n2.-Subtract\n3.-Multiply\n4.-Divide");
-
-            int option = int.Parse(Console.ReadLine());
-
-
-            EvaluateOption(option, number1, number2);
+            Start();
         }
+        public static void Start()
+		{
+			Console.WriteLine("Write 2 numbers");
+			float number1 = float.Parse(Console.ReadLine());
+			float number2 = float.Parse(Console.ReadLine());
+
+
+			Console.WriteLine("Select an option:\n1.-Add\n2.-Subtract\n3.-Multiply\n4.-Divide");
+
+			int option = int.Parse(Console.ReadLine());
+
+
+			EvaluateOption(option, number1, number2);
+		}
+
 
         public static float AddTwoNumbers(float n1, float n2)
         {
@@ -67,7 +72,12 @@ namespace AldrinD1
 			{
 				Console.WriteLine("Result of division: " + DivTwoNumbers(n1, n2));
 			}
-		}
+
+            else {
+                Console.WriteLine("Invalid option")
+            }
+            Start(); //Start again 
+        }
 
 
         }
