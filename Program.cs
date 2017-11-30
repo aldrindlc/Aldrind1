@@ -26,26 +26,51 @@ namespace AldrinD1
             return result;
         }
 
-        public static void EvaluateOption(int option, float n1, float n2)
+        public static float SubTwoNumbers(float n1, float n2)
         {
-            else if (option == 1)
-            {
-                Console.WriteLine("Result of addition: " + AddTwoNumbers(n1, n2));
-            }
+            float result = n1 - n2;
+
+            return result;
+        }
+        public static float MulTwoNumbers(float n1, float n2)
+        {
+            float result = n1 * n2;
+
+            return result;
+        }
+        public static float DivTwoNumbers(float n1, float n2)
+        {
+            float result = n1 / n2;
+
+            return result;
+        }
+
+
+
+
+        public static void EvaluateOption(int option, float n1, float n2)
+		{   
+            if (option == 1)
+			{
+				Console.WriteLine("Result of addition: " + AddTwoNumbers(n1, n2));
+			}
 			else if (option == 2)
 			{
-				Console.WriteLine("Result of subtraction: " + AddTwoNumbers(n1, n2));
+				Console.WriteLine("Result of subtraction: " + SubTwoNumbers(n1, n2));
 			}
 
 			else if (option == 3)
 			{
-				Console.WriteLine("Result of multiplication: " + AddTwoNumbers(n1, n2));
+				Console.WriteLine("Result of multiplication: " + MulTwoNumbers(n1, n2));
 			}
 			else if (option == 4)
 			{
-				Console.WriteLine("Result of division: " + AddTwoNumbers(n1, n2));
+				Console.WriteLine("Result of division: " + DivTwoNumbers(n1, n2));
 			}
-
 		}
+
+
+        }
     }
-}
+
+
