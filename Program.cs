@@ -7,9 +7,9 @@ namespace AldrinD1
         public static void Main(string[] args)
         {
             Console.WriteLine("Write 2 numers");
-            string number1 = Console.ReadLine();
-            string number2 = Console.ReadLine();
-            Console.WriteLine(number1 + " " + number2);
+            float number1 = float.Parse(Console.ReadLine());
+            float number2 = float.Parse(Console.ReadLine());
+            Console.WriteLine(number1 + number2);
         }
     }
 }
