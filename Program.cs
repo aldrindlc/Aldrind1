@@ -74,7 +74,7 @@ namespace AldrinD1
 			}
 
             else {
-                Console.WriteLine("Invalid option")
+                Console.WriteLine("Invalid option");
             }
             Start(); //Start again 
         }
